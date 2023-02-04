@@ -1,0 +1,29 @@
+<h1>addEventListener</h1>
+
+<p>It should have a target and apply the event to</p>
+
+<pre>element.addEventListener("click", myFunction);
+
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Hello World";
+    }</pre>
+
+<p><strong>Example:</strong> document.querySelector("button").addEventListener("click", myFunction)</p>
+
+<p><em>the button</em> is the target and <em>click</em> is the type of event and <em>my function is the response</em></p>
+
+<hr>
+
+<p>The function in addEventListener() should not have ()</p>
+
+<p>Once there is a (), the function is called immediately as addEventListener is read rather than wait until event is clicked</p>
+
+<hr>
+
+<h3>anonymous function</h3>
+
+<p>Without using (), the element.addEventListener("click", myFunction); does 
+    exactly the samething as element.addEventListener("click", function(){
+        
+    })
+</p>

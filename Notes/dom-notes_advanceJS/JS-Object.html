@@ -1,0 +1,29 @@
+<h1>JS Object</h1>
+
+Constructor Function: must start with <strong>Captial letter</strong>
+<br>
+
+Example:
+<br>
+
+function DefineBoys(name, age){
+    this.name = name;
+    this.age = age;
+    this.clean = function(){
+        alert("clean is in progress");
+    }
+}
+
+<br>
+
+Then create object,
+
+<pre>var boys = new DefineBoys("Zejun", 21)</pre>
+
+access object attribute
+
+<pre>boys.name</pre>
+
+access object method
+
+<pre>boys.clean()</pre>

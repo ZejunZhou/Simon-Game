@@ -1,0 +1,27 @@
+<h1>Manipulate Style with Jquery</h1>
+
+<pre>$("h1").css("property", "propertyValue")</pre>
+
+Example: $("h1").css("color", "red")
+
+<hr>
+
+<strong>But directing change css sytle by js is not promoted</strong>
+
+<em>Soluation: use classlist (add/remove/toggle)</em>
+
+<pre>$("h1").addClass("Classname")</pre>
+
+<pre>$("h1").removeClass("Classname")</pre>
+
+<hr>
+
+<strong>Add mutiple class</strong>
+
+<pre>$("h1").addClass("Classname1 Classname2")</pre> which simply seperate by space
+
+<hr>
+
+<strong>Jquery can tell whether the element has the class or not</strong>
+
+<pre>$("h1").hasClass("Classname")</pre> which return true or false

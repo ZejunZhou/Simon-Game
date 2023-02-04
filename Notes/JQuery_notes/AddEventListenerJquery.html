@@ -1,0 +1,33 @@
+<h1>Add Event Listner Jquery</h1>
+
+<pre>$("h1").click(function(){
+    $("h1").css("color", "purple")
+})
+</pre>
+
+<hr>
+
+<ul>
+    <li>h1 here is the target applied to</li>
+    <li>click here is the eventType</li>
+    <li>Anonymous function is the callback function</li>
+</ul>
+
+<hr>
+
+Jquery not need a <strong>for loop</strong> to add to all buttons
+
+<pre>$("button").click(function(){
+    $("h1").css("color", "blue")
+    })</pre>
+
+will applied to <strong>All button</strong>
+
+<hr>
+
+<strong>Add different event</strong>
+
+<pre>$("button").on("click", function(){
+    $("h1").css("color", "blue")
+    })</pre>
+
